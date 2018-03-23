@@ -1,0 +1,29 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "A Pokemon app using the PokeAPI",
+  "main": "pokemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyride/pokemon.git"
+  },
+  "bin": {
+    "pokemonAPI": "./pokemon.js"
+  },
+  "author": "Gyride",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gyride/pokemon/issues"
+  },
+  "homepage": "https://github.com/Gyride/pokemon#readme",
+  "dependencies": {
+    "asciify-image": "^0.1.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.1.0",
+    "pokedex-promise-v2": "^3.1.1"
+  }
+}
