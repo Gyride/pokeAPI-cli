@@ -1,8 +1,8 @@
 {
-  "name": "pokemon",
+  "name": "pokeapi-cli",
   "version": "1.0.0",
   "description": "A Pokemon app using the PokeAPI",
-  "main": "pokemon.js",
+  "main": "pokeAPI-cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Gyride/pokemon.git"
   },
   "bin": {
-    "pokemonAPI": "./pokemon.js"
+    "pokeAPI-cli": "./pokeAPI-cli.js"
   },
   "author": "Gyride",
   "license": "ISC",
